@@ -19,7 +19,7 @@ public class TestConfig implements CommandLineRunner {
 	
 	@Autowired
 	private UserRepository userRepository;
-	
+	@Autowired
 	private OrderRepository orderRepository;
 
 	@Override
